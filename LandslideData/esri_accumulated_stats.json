@@ -1,0 +1,132 @@
+{
+  "Version" : 1,
+  "NumBands" : 4,
+  "TileSizeX" : 256,
+  "TileSizeY" : 256,
+  "NumClasses" : 2,
+  "NumTiles" : 100,
+  "NumTilesAsDouble" : 100,
+  "NextTileIndex" : 109,
+  "OutputFeatures" : true,
+  "MetaDataMode" : "Classified_Tiles",
+  "MinCellSize" : {
+    "x" : 8.9831528411960849e-05,
+    "y" : 8.9831528411961079e-05,
+    "spatialReference" : {
+      "wkid" : 4326,
+      "latestWkid" : 4326
+    }
+  },
+  "MaxCellSize" : {
+    "x" : 8.9831528411960849e-05,
+    "y" : 8.9831528411961079e-05,
+    "spatialReference" : {
+      "wkid" : 4326,
+      "latestWkid" : 4326
+    }
+  },
+  "Classes" : [
+    {
+      "ClassValue" : 1,
+      "ClassName" : "1",
+      "Color" : [
+        55,
+        227,
+        88
+      ]
+    },
+    {
+      "ClassValue" : 2,
+      "ClassName" : "2",
+      "Color" : [
+        126,
+        174,
+        165
+      ]
+    }
+  ],
+  "FeatureStats" : {
+    "NumClasses" : 2,
+    "NumImagesTotal" : 100,
+    "NumFeaturesTotal" : 1493,
+    "NumImagesPerClass" : [
+      100,
+      56
+    ],
+    "NumFeaturesPerClass" : [
+      833,
+      660
+    ],
+    "NumFeaturesPerImage" : {
+      "Min" : 1,
+      "Max" : 50,
+      "Mean" : 14.93,
+      "Sum" : 1493,
+      "Count" : 100
+    },
+    "FeatureAreaPerClass" : [
+      {
+        "Min" : 6.8408583823466003e-09,
+        "Max" : 1.0971895334164258e-07,
+        "Mean" : 1.0754765461405419e-07,
+        "Sum" : 8.9587196293507132e-05,
+        "Count" : 833
+      },
+      {
+        "Min" : 1.0325825803060941e-09,
+        "Max" : 1.0971133884185274e-07,
+        "Mean" : 1.0749276492952174e-07,
+        "Sum" : 7.0945224853484349e-05,
+        "Count" : 660
+      }
+    ]
+  },
+  "InputRastersProps" : {
+    "RasterCount" : 1,
+    "SensorName" : "MultiSpectral",
+    "BandNames" : [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "BandStatsState" : [
+    {
+      "Min" : 208,
+      "Max" : 5196,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 722.25910947385285,
+      "M2" : 372828256180.16498,
+      "Num" : 3521334
+    },
+    {
+      "Min" : 264,
+      "Max" : 4752,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 762.27768865435633,
+      "M2" : 189434811108.70294,
+      "Num" : 3521334
+    },
+    {
+      "Min" : 193,
+      "Max" : 4304,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 589.93807900642207,
+      "M2" : 197923231396.71783,
+      "Num" : 3521334
+    },
+    {
+      "Min" : 252,
+      "Max" : 5728,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 2166.6656440428533,
+      "M2" : 1003792340427.3184,
+      "Num" : 3521334
+    }
+  ]
+}

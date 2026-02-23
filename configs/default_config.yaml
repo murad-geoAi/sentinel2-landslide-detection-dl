@@ -1,0 +1,42 @@
+# ===================================================
+# default_config.yaml
+# Default hyperparameters for landslide_dl_project
+# ===================================================
+
+# --- Paths ---
+data_root: "g:/DataSet for CNN/LandslideData"
+output_dir: "g:/DataSet for CNN/landslide_dl_project/outputs"
+
+# --- Data ---
+num_bands: 4
+val_split: 0.2
+batch_size: 8
+num_workers: 0 # Set >0 on Linux; Windows often needs 0
+pin_memory: true
+
+# --- Model ---
+model: resnet18 # resnet18 | baseline_cnn
+pretrained: true
+freeze_backbone: true
+unfreeze_epoch: 10 # Epoch to unfreeze backbone layers 1-3
+
+# --- Loss ---
+loss: focal # weighted_ce | focal
+focal_gamma: 2.0
+
+# --- Optimizer ---
+optimizer: adamw # adam | adamw | sgd
+lr: 0.001
+weight_decay: 0.0001
+
+# --- Scheduler ---
+scheduler: cosine # cosine | step | none
+
+# --- Training ---
+max_epochs: 60
+early_stopping_patience: 12
+early_stopping_monitor: val_auroc
+checkpoint_monitor: val_auroc
+
+# --- Reproducibility ---
+seed: 42

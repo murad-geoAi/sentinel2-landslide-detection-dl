@@ -1,0 +1,42 @@
+# ===================================================
+# Landslide Detection – Python Dependencies
+# Tested with Python 3.9+
+# ===================================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+pytorch-lightning>=2.0.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data Processing / Geospatial
+rasterio>=1.3.0
+Pillow>=9.5.0
+scikit-learn>=1.2.0
+pandas>=2.0.0
+
+# Metrics
+torchmetrics>=1.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Grad-CAM
+grad-cam>=1.4.6
+
+# Logging
+tensorboard>=2.13.0
+
+# Configuration
+PyYAML>=6.0
+
+# Utilities
+tqdm>=4.65.0
+rich>=13.0.0
+
+# Notebook support (for Colab notebook)
+ipywidgets>=8.0.0
